@@ -1,0 +1,677 @@
+body{
+    width: 100%;
+    margin: 0; 
+    background-color:#ffffff;
+}
+.navbar-default{
+    width: 105%;
+    z-index:999;
+}
+
+ .kevin{
+    width: 500px;
+    padding: 20px;
+    margin-left: 150px !important;   
+    font-size: 50px; 
+    float:left;
+}
+.dropdown-menu .tips:{
+    background-color: white;
+}
+
+.clear{
+    clear:both;
+}
+
+.home, .biog, .tips, .blog, .contacts, .kevin, .hello .learn, .proj .allpr, .new .learn, .cont a, .dropdown-menu .tips, span{
+    font-family: roboto;   
+    font-weight: 100;
+    color:lightgray !important;   
+}
+ .home{
+    color:red !important; 
+}
+
+.content{
+    margin: 0 195px;
+    height: auto;
+}
+
+.carousel-caption{
+    width: 50%;
+    bottom: 35%;
+    text-align: left;
+}
+.carousel-caption span{
+    font-family: roboto;   
+    font-weight: 100;
+    color:white !important;
+}
+
+.carousel-control{
+   width: 100px;
+   height: 100px; 
+   top: 470px; 
+   opacity: 1;
+   }
+.carousel-control.right {
+    left: auto;
+    right: 0;
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0%);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0%);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0)));
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0%);
+}
+.carousel-control.left {
+    left: auto;
+    right: 0;
+    background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+    background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 0%);
+    background-image: -webkit-gradient(linear, left top, right top, from(rgba(0, 0, 0, 0)), to(rgba(0, 0, 0, 0)));
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0) 100%);
+}
+
+
+.carousel-control .glyphicon{
+    border-width: 2px;
+    border-style:solid;
+    border-radius: 25px;
+    border-color: white;
+    width: 50px;
+    height: 50px;
+   /* padding:25px;     */
+    color:white !important;
+}
+.carousel-control span:hover{
+    background-color: white;
+    color:lightgrey !important;
+    
+}
+.left.carousel-control{
+    left:185px
+}
+.right.carousel-control{
+    left:270px;
+}
+.glyphicon.glyphicon-chevron-left{
+     width: 50px;
+    height: 50px;
+}
+.glyphicon.glyphicon-chevron-right{
+     width: 50px;
+    height: 50px;
+}
+.glyphicon-chevron-left:before{
+    font-size: 23px;
+    position: relative;
+    top:5px;
+}
+
+.glyphicon-chevron-right:before{
+    font-size: 23px;
+    position: relative;
+    top:5px;
+} 
+
+.hello{
+    width: 100%;
+    height: 450px;
+}
+.hello span, .proj span, .new span, .services span, .cont span{    
+   font-size: 100px;
+   margin:15px;
+}
+.feature{ /*черта серая */
+    width: 63px;
+    height: 1px;
+    background-color:lightgray;
+    margin-left: 15px;    
+}
+#line{
+    width: 100%;
+    height: 1px;
+    margin-top:100px;
+    background-color:lightgray;
+    margin-left: 7px; 
+}
+#lline{ /*черта красная */
+    width: 63px;
+    height: 1px;
+    background-color:#ff4754;
+    margin-left: 7px;
+    margin-top: -1;
+}
+.hello p, .table a, .newtable a, .newtable p, .itable .topic, .itable p, .info a, .info .address {
+    width: 90%;
+    margin-bottom: 100px;
+    font-family: roboto;
+    font-size:20px;
+    font-weight: 300;    
+}
+.newtable a, .itable .topic{
+     font-weight: 400;
+}
+.hello .learn, .proj .allpr, .new .learn, .cont .send{  /* красные кнопки*/  
+    padding: 18px 35px;
+    background:#ff4754; 
+    font-size: 10px;
+    font-weight: 400;
+    text-decoration:none; 
+    border-style:solid;
+    border-width: 1px;
+    border-color:#ff4754;
+    border-radius: 12px;
+}
+  
+.hello .learn:hover /* при наведении курсора на кнопку*/
+{
+    transition: all 0.3s ease-in-out; /*плавный переход */
+    background-color:white; 
+    color:#ff4754;
+    border-style:solid;
+    border-width: 1px;
+    border-color:#ff4754;    
+}
+.proj .allpr:hover /* при наведении курсора*/
+{
+    transition: all 0.3s ease-in-out; /*плавный переход */
+    background-color:white; 
+    color:#ff4754;
+    border-style:solid;
+    border-width: 1px;
+    border-color:#ff4754;    
+}
+.new .learn:hover /* при наведении курсора*/
+{
+    transition: all 0.3s ease-in-out; /*плавный переход */
+    background-color:white; 
+    color:#ff4754;
+    border-style:solid;
+    border-width: 1px;
+    border-color:#ff4754;    
+}
+.cont .send:hover /* при наведении курсора*/
+{
+    transition: all 0.3s ease-in-out; /*плавный переход */
+    background-color:white; 
+    color:#ff4754;
+    border-style:solid;
+    border-width: 1px;
+    border-color:#ff4754;    
+}
+.proj{
+    height: auto;
+}
+ .table{
+    margin: 50px 0 100px 0;
+}
+.table small, .newtable small{
+    font-family: roboto;
+    font-weight: 200;
+    color:gray;
+    font-size: 10px;
+}
+.table .left{
+    width: 100%;
+    float:left;
+    padding-right:70px;
+    box-sizing: border-box; 
+}
+.table .right{
+    width: 100%;
+    float:right;
+    padding-left:70px;
+    box-sizing: border-box; 
+}
+.table a, .newtable a, .info a{
+    text-decoration: none;
+    color:black;
+}
+.info a{
+    font-family: roboto;   
+    font-weight: 300;
+}
+.navbar-right a:hover{
+    color:#ff4754 !important;    
+}
+.table a:hover
+{
+    color:#ff4754;
+}
+.table img:hover
+{
+    transform: scale(1.1); /*маштабирование элемента*/
+    transition: all 0.3s ease-in-out; /*плавный переход*/
+}
+.table .image{
+    overflow: hidden;
+}
+.newtable a:hover
+{
+    color:#ff4754;
+}
+.info a:hover{
+     color:#ff4754;
+}
+.newtable .first, .second, .third, .fourth, .itable .elem{
+    width: 100%;
+}
+.newtable p{
+    font-size: 10px;
+}
+.newtable div
+{
+    float:left;
+}
+.itable{
+    margin-top: 20px;
+}
+.itable .fa{
+    font-size: 50px;
+}
+.itable div
+{
+    float:left;
+}
+.itable .topic
+{
+    margin-bottom: 30px;
+}
+.cont span{
+    margin: 0;
+}
+.cont .forma{
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.forma .name{
+    width: 100%;
+    float:left;
+    padding-right: 15px;
+    box-sizing: border-box;   
+}
+
+.forma .email{
+    width: 100%;
+    float:right;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+
+ .name input, .email input{
+    width: 100%;
+    margin:30px 0;
+    border-top: none;
+    border-left:none;
+    border-right:none;
+    border-bottom-color: #a4a09d;
+    border-bottom-width: 1px;
+}
+.cont .send{
+    /*margin-left: 520px; */
+    margin-top: 50px;
+}
+#text{
+    border-top: none;
+    border-left:none;
+    border-right:none;
+    width: 100%;
+}
+.info{
+    margin-top:50px;
+    position: relative;
+    background-color: #f9f9f9;
+}
+.info .elem{
+    width: 100%;
+}
+.info div{
+    float:left;
+}
+.cont .fsend{
+    width: 50%;
+    padding: 18px 20px;
+}
+.footer{
+     background-color:#ff4754;
+}
+.footer span{
+    width: 100%;
+    font-size:20px;
+    font-weight: 300;
+    background-color:#ff4754;
+    padding-left: 195px;    
+}
+.ontop{
+    font-size: 20px;   
+    background-color:#ff4754; 
+    padding: 20px; 
+    padding-left:25px;
+    padding-right: 25px;
+    right: 20px;
+    bottom:-100px;
+    position: fixed; 
+    z-index: 5;
+    /*visibility:hidden; */
+}
+.ontop:hover{
+    background-color:#212020; 
+    transition: all 0.3s ease-in-out;
+}
+.fa-angle-up{
+   color:white;
+}
+.l{
+    width: 100%;
+    height: 5px;
+}
+.itable .fa{
+    margin-left: 7px;
+}
+
+/*--------------------------------ТЕЛЕФОН */
+@media(min-width:320px){
+    .kevin{
+        font-size: 20px;
+        margin-left: -5px !important;
+         width: auto;
+    }
+       
+    #carousel-example-generic{
+        width: 100%;
+        margin-top: 50px;
+    }
+    
+     .navbar-default{
+        margin-bottom: 0;
+        top:0;
+        left:0;
+    }    
+    .navbar-toggle{
+        margin-right:30px;
+        
+    }
+    .carousel-caption{
+        left:5%;
+        font-size:17px;
+    }
+   .carousel-control{
+   visibility:hidden;
+}
+    .right.carousel-control{
+        left:0;
+    }
+     .carousel-indicators{
+        visibility: visible;        
+    }
+    .carousel-indicators .active{
+        width: 7px;
+        height: 7px;
+    }
+    .carousel-indicators li{
+        width: 7px;
+        height: 7px;
+         margin: 0 !important;
+}
+
+     .hello{
+        width: 100%;
+    }
+    .hello span,.proj span, .new span, .services span, .cont span, .cont span{
+        font-size: 20px;
+        margin:0;
+    }
+    .feature{
+        margin:0;
+    }
+    .hello p{
+        font-size: 13px;
+    }
+    .hello .learn, .proj .allpr, .new .learn, .cont .send{  /* красные кнопки*/  
+    padding: 10px 25px;
+    font-size: 8px;       
+    border-radius: 10px;
+    }   
+    .hello{
+        height: 400px;
+    }
+    .content{
+        width: 100%;
+        margin:0;
+    }
+    .proj span, .new span, .services span, .cont span{
+        margin:0 15px;
+    }
+     .new .feature,.proj .feature, .services .feature, .cont .feature{
+        margin:0 15px;
+    }
+   .proj #line, .proj #lline, .new #line, .new #lline, .services #line,.services #lline{
+        margin-left:15px;
+    }
+    .proj #line, .new #line, .services #line{
+        width: calc(100% - 30px);
+    }
+    .hello #line, .hello #lline{
+        margin-left:0;
+    }
+    .allpr{
+        margin:0 10px;
+    }
+    .image img{
+        width: 100%;
+    }
+    .table{
+        margin-bottom: 50px;
+    }
+    .table .left{
+        padding-right: 0;
+    }
+    .table .right{
+       padding-left: 0; 
+    }
+    .table a{
+        font-size: 15px;
+    }
+    .conteiner .proj{
+        padding:0;
+    }
+     .newtable .first, .second, .third, .fourth{
+        width: 100%;  
+   }
+    .newtable .col-sm-6, .itable .col-sm-6{
+        padding: 0;
+    }
+    .newtable .elem{
+        width: 100%;
+    }
+    .elem img{
+        width: 100%;
+    } 
+    .newtable p{
+        margin-bottom: 50px;
+        font-size: 15px;
+    }
+    .newtable a, .services p{
+        font-size: 17px; 
+    }
+    .learn, .allpr{
+        margin-left: 20px;
+    }
+    .itable .elem p{
+        margin-bottom: 50px;
+    }
+    .forma .name{
+        padding-right: 0;
+    }
+    .forma .email{
+        padding-left: 0;
+    }
+    .info .address{
+        margin-bottom: 0;
+         font-size: 15px;
+    }
+    .info a{
+        font-size: 15px;
+    }
+    .footer span{
+        font-size: 15px;
+        padding-left:15px;
+    }
+       
+}
+ /*-----------------------------ПЛАНШЕТ */   
+@media(min-width:768px){
+     .kevin{
+       font-size: 27px;
+       padding:15px;
+       margin-left: 15px !important; 
+    }
+    ul li{
+        font-size:20px;
+        margin:0px;
+    }  
+    .navbar-default{
+        margin-bottom: 0;
+         width: 100%;
+    }
+  
+    .container-fluid{
+    padding-left: 0;
+    padding-right: 0;
+}
+     .carousel-caption{
+        font-size:50px;
+          left:4%;
+    }
+    .carousel-indicators .active{
+        width: 15px;
+        height: 15px;
+    }
+    .carousel-indicators li{
+        width: 15px;
+        height: 15px;          
+}
+    
+     .hello{
+        width: 100%;
+        height: 450px;
+    }
+    .hello span,.proj span, .new span, .services span, .cont span{
+        font-size: 50px;
+    }
+    .hello p{
+        font-size: 15px;
+    }
+    .hello .learn, .proj .allpr, .new .learn, .cont .send{
+        padding: 18px 35px;
+        font-size: 10px;       
+        border-radius: 12px;
+    }   
+     .content{
+        margin:0;
+    }
+     .table a{
+        font-size: 20px;
+    }
+    .newtable .first, .second, .third, .fourth{
+        width: 100%;        
+    }
+    .newtable .elem{
+        width: 100%;
+    }
+    .elem img{
+        width: 100%;
+    }   
+   .newtable .col-sm-6 .col-lg-3{
+        width: 100%;   
+         height: 100%;
+    }
+    .newtable p{
+        font-size: 20px;
+    }
+    .newtable a{
+        font-size: 25px; 
+    }
+     .proj #line, .new #line{
+        width: calc(100% - 40px);
+    }
+    .info .address{
+        font-size: 17px;
+         margin-bottom: 80px;
+    }
+    .info a{
+        font-size: 17px;
+    } 
+     .footer span{
+        font-size: 17px;
+        padding-left:33px;
+    }
+}
+
+/* Компьютер */
+@media(min-width:1170px){
+    .navbar-header{
+        margin: 20px;
+    }
+    .kevin{
+        font-weight: 100;
+        font-size: 50px; 
+        margin-left: 210px !important;
+         }
+    
+   ul li{
+        margin:20px;
+    } 
+    .navbar-right .contacts{
+        margin-right: 100px;
+    }
+    .navbar-default{
+        margin-bottom: 0;
+        top:0;
+        left:0;
+    }
+    
+    #carousel-example-generic{
+    margin-top: 70px;
+       
+} 
+      .carousel-caption{
+        font-size:130px;
+         left:13.5%;
+    }
+    .carousel-control{
+        visibility:visible;
+    }
+    .right.carousel-control{
+        left:270px;
+    }
+    
+    .carousel-indicators{
+        visibility: hidden;        
+    }
+    .hello{
+         height: 450px;
+    }
+    .hello span,.proj span, .new span, .services span, .cont span{
+        font-size: 100px;
+    }
+    .hello p{
+        font-size: 20px;
+    }
+    .hello .learn, .proj .allpr, .new .learn, .cont .send{
+        padding: 18px 35px;
+        font-size: 10px;       
+        border-radius: 12px;
+    }
+    .newtable a{
+        font-size: 22px;
+    }
+    .newtable p{
+    font-size: 17px;
+}
+    .footer span{
+    font-size:20px;
+    padding-left: 220px;    
+}
+}
